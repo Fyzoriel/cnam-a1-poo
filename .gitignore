@@ -1,0 +1,6 @@
+#Ignore idea folder
+**/.idea/**
+
+[Bb]in/
+[Oo]bj/
+.DS_Store
