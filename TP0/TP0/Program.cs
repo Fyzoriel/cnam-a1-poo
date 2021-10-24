@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading;
 
 
-namespace TP1
+namespace TP0
 {
     class Program
     {
