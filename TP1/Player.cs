@@ -22,7 +22,7 @@ namespace TP1
         /// <returns>The formatted string</returns>
         private static string Format(string toFormat)
         {
-            if (toFormat == null || toFormat.Length == 0)
+            if (string.IsNullOrWhiteSpace(toFormat))
             {
                 return toFormat;
             }
@@ -32,7 +32,7 @@ namespace TP1
             }
             return $"{char.ToUpper(toFormat[0])}{toFormat.Substring(1).ToLower()}";
         }
-
+        
         /// <summary>
         /// Return the nickname and the name of the player
         /// </summary>
